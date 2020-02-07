@@ -1,0 +1,21 @@
+first check: time in
+second - fourth: check between class hours
+fifth: time out 
+
+case 1
+> if not detected for the 1st 15 mins = late
+  else detected for the 1st checking = present but late
+> if not detected for the 2nd checking = late
+  else detected for the 2nd checking = present but late
+> if detected or not for the 3rd checking = absent
+
+case 2
+> verified  time in = present
+> verified time out = present
+
+case 3
+> verified time in but time out not detected = questionable
+
+case 4
+> verified time in and verified time out,
+  but not detected for 3 times in between class hours = questionable
